@@ -17,7 +17,7 @@ client.embed = await import("./utils/bot/embed.js").then(m => m.default)
 client.database = database
   
 
-await mongoose.connect("mongodb+srv://eray:b100dy50@cluster0.m4zwaea.mongodb.net/test")
+await mongoose.connect("mongodb")
 
 await i18next
     .use(translationBackend)
