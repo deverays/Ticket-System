@@ -98,52 +98,52 @@ export default client => {
             });
             const buton = new MessageActionRow()
             .addComponents(
-                new MessageButton()
-                .setEmoji("<:userCard:1093941120947474442>")
-                .setStyle("SECONDARY")
-                .setCustomId("ticketUserCard"),
-              new MessageButton()
-                .setEmoji("<:alet:1094232536042983514>")
-                .setStyle("SECONDARY")
-                .setCustomId("ticketAuthority"),
-              new MessageButton()
-                .setEmoji("<:DosyaDoris:1093912292657221722>")
-                .setStyle("SECONDARY")
-                .setCustomId("ticketMessageLog"),
-              new MessageButton()
-                .setEmoji("<:ses1:1091001515319246919>")
-                .setStyle("SECONDARY")
-                .setCustomId("ticketVoiceX"),
-                new MessageButton()
-                .setLabel("❌")
-                .setStyle("SECONDARY")
-                .setCustomId("ticketClose1"),
+                            new MessageButton()
+                            .setEmoji("📔")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketUserCard"),
+                            new MessageButton()
+                            .setEmoji("🛡️")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketAuthority"),
+                            new MessageButton()
+                            .setEmoji("📁")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketMessageLog"),
+                            new MessageButton()
+                            .setEmoji("🔇")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketVoice"),
+                            new MessageButton()
+                            .setLabel("❌")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketClose1"),
             );
           interaction.update({ components: [buton] });
             } 
               if (interaction.customId == "ticketVoiceX") {
                 const buton = new MessageActionRow()
                 .addComponents(
-                    new MessageButton()
-                    .setEmoji("<:userCard:1093941120947474442>")
-                    .setStyle("SECONDARY")
-                    .setCustomId("ticketUserCard"),
-                  new MessageButton()
-                    .setEmoji("<:alet:1094232536042983514>")
-                    .setStyle("SECONDARY")
-                    .setCustomId("ticketAuthority"),
-                  new MessageButton()
-                    .setEmoji("<:DosyaDoris:1093912292657221722>")
-                    .setStyle("SECONDARY")
-                    .setCustomId("ticketMessageLog"),
-                  new MessageButton()
-                    .setEmoji("<:ses:1091000584561242134>")
-                    .setStyle("SECONDARY")
-                    .setCustomId("ticketVoice"),
-                    new MessageButton()
-                    .setLabel("❌")
-                    .setStyle("SECONDARY")
-                    .setCustomId("ticketClose1"),
+                            new MessageButton()
+                            .setEmoji("📔")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketUserCard"),
+                            new MessageButton()
+                            .setEmoji("🛡️")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketAuthority"),
+                            new MessageButton()
+                            .setEmoji("📁")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketMessageLog"),
+                            new MessageButton()
+                            .setEmoji("🔊")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketVoice"),
+                            new MessageButton()
+                            .setLabel("❌")
+                            .setStyle("SECONDARY")
+                            .setCustomId("ticketClose1"),
                 );
                 interaction.update({ components: [buton] })
                 if (createdChannel) {
