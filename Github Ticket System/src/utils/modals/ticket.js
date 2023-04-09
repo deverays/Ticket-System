@@ -60,19 +60,19 @@ export default async interaction => {
                       const buton = new MessageActionRow()
                         .addComponents(
                             new MessageButton()
-                            .setEmoji("<:userCard:1093941120947474442>")
+                            .setEmoji("📔")
                             .setStyle("SECONDARY")
                             .setCustomId("ticketUserCard"),
                             new MessageButton()
-                            .setEmoji("<:alet:1094232536042983514>")
+                            .setEmoji("🛡️")
                             .setStyle("SECONDARY")
                             .setCustomId("ticketAuthority"),
                             new MessageButton()
-                            .setEmoji("<:DosyaDoris:1093912292657221722>")
+                            .setEmoji("📁")
                             .setStyle("SECONDARY")
                             .setCustomId("ticketMessageLog"),
                             new MessageButton()
-                            .setEmoji("<:ses:1091000584561242134>")
+                            .setEmoji("🔊")
                             .setStyle("SECONDARY")
                             .setCustomId("ticketVoice"),
                             new MessageButton()
