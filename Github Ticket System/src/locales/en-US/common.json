@@ -1,6 +1,0 @@
-{
-    "cooldown_error": "You can use this command in `{{cooldown}}` seconds!",
-    "unexpected_error": "An unexpected error occurred!",
-    "username": "Username",
-    "roles": "Roles"
-}

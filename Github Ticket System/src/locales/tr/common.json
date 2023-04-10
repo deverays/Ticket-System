@@ -1,6 +1,0 @@
-{
-    "cooldown_error": "Bu komutu tekrar kullanmak için `{{cooldown}}` saniye beklemeniz gerekiyor!",
-    "unexpected_error": "Bu komutu kullanırken bir hata oluştu!",
-    "username": "Kullanıcı adı",
-    "roles": "Roller"
-}
