@@ -1,0 +1,73 @@
+{
+    "suggestion": {
+        "name": "öneri",
+        "description": "Geliştiriciye önerinizi iletir.",
+        "success_title": "Öneriniz İçin Teşekkürler!",
+        "success_description": "Öneriniz başarıyla geliştiriciye iletildi.",
+        "buton_onay": "Destekliyorum",
+        "buton_red": "Desteklemiyorum",
+        "button": "Önerinizi başarıyla geliştiricime ilettim",
+        "modal": {
+            "title": "Öneri",
+            "title_input": {
+                "label": "Başlık",
+                "placeholder": "Lütfen öneri başlığını girin."
+            },
+            "details_input": {
+                "label": "Detaylar",
+                "placeholder": "Lütfen öneri detaylarını girin."
+            }
+        }
+    },
+    "authority": "Bu komutu kullanmak için yetersiz yetki",
+    "ticket": {
+        "name": "ticket",
+        "description": "Ticket sistemini kurar.",
+        "modals": {
+            "titlePlace": "Lütfen ticket başlığınızı giriniz.",
+            "description": "Ticket Açılma Sebebi",
+            "descriptionPlace": "Lütfen ticket açma sebebinizi giriniz."
+        },
+        "text": {
+            "setting": "Ticket sistemini başarıyla kurdum.",
+            "reset": "Ticket sistemini sıfırladım.",
+            "createChannel": "Senin için bir kanal oluşturdum :",
+            "deleteChannel": "Biletini kapatmak istediğine eminmisin?",
+            "deleteChannelDone": "Kanal siliniyor...",
+            "createUser": "Hali hazırda zaten bir kanalın var.",
+            "roleChannel": "rolündeki kullanıcılar:",
+            "userCardTitle": "Kullanıcı Bilgi",
+            "userCardNickname": "Kullanıcının İsmi:",
+            "userCardID": "Kullanıcı Kimliği:",
+            "userCardTime": "Hesap Oluşturulma Tarihi:"
+        },
+        "language": {
+            "text": "Türkçe",
+            "textText": "Kullanıcının Dili: "
+        },
+        "setting": {
+            "name": "kur",
+            "description": "Ticket sistemini kurar.",
+            "channel": {
+                "name": "kanal",
+                "description": "Lütfen bir kanal seçiniz."
+            },
+            "text": {
+                "name": "metin",
+                "description": "Lütfen bir metin giriniz."
+            },
+            "role": {
+                "name": "rol",
+                "description": "Lütfen bir rol seçiniz."
+            },
+            "category": {
+                "name": "kategori",
+                "description": "Lütfen bir kategori seçiniz."
+            }
+        },
+        "reset": {
+            "name": "sıfırla",
+            "description": "Ticket sistemini sıfırlar."
+        }
+    }
+}
